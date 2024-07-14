@@ -1,4 +1,6 @@
 # Mad-Phisher
+![madphisher](https://github.com/user-attachments/assets/376044bb-80c2-428c-87f4-fc25b2c48289)
+
 <p> A beginners friendly, Automated phishing tool with 5 templates</p>
 
 # Disclaimer
