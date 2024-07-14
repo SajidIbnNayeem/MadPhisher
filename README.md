@@ -26,3 +26,6 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
 cd Mad-Phisher
 bash MadPhisher.sh
 ```
+# Screenshots
+
+![kalilinux](https://github.com/user-attachments/assets/e566f6c7-7233-40ca-97e5-597d74b8660d)
