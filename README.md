@@ -11,4 +11,15 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
 - Latest and updated login pages.
 - Beginners friendly
 - Mask URL support
-  
+
+ # Installation
+ - Just, Clone this repository -
+
+ '''
+ git clone https://github.com/SajidIbnNayeem/Mad-Phisher.git
+ '''
+ - Now go to cloned directory and run 'Madphisher.sh' -
+ '''
+cd Mad-Phisher
+bash MadPhisher.sh
+'''
