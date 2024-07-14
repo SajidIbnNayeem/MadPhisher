@@ -16,12 +16,16 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
  - Just, Clone this repository -
 
  '''
+ 
  git clone https://github.com/SajidIbnNayeem/Mad-Phisher.git
+ 
  '''
 
 Now go to cloned directory and run 'Madphisher.sh' 
 
 '''
+
 cd Mad-Phisher
 bash MadPhisher.sh
+
 '''
