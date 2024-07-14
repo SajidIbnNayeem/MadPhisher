@@ -28,5 +28,3 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
 cd Mad-Phisher
 bash MadPhisher.sh
 ```
-# Screenshots
-
