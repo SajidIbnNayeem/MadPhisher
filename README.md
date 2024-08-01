@@ -37,11 +37,14 @@ bash MadPhisher.sh
 <li> You must first install cloudflared</li>
   You have to install Cloudflared from their official website
 <li> Access local services anywhere using cloudflared</li>
-  Open a new terminal(new window) and type
+  
+  <li> Open a new terminal(new window) and type</li>
+  
   ```
   cloudflared --url localhost:8080
   ```
 ![screenshot](https://github.com/user-attachments/assets/96f2e07d-36a6-442e-a18f-cbba7b618b13)
+
 
 - Here you will find another link which you can use - 
   ![Screenshot ](https://github.com/user-attachments/assets/44a5669d-ee00-4847-96eb-455593a2f007)
