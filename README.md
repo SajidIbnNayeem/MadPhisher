@@ -41,6 +41,15 @@ bash MadPhisher.sh
   ```
   cloudflared --url localhost:8080
   ```
+![screenshot](https://github.com/user-attachments/assets/96f2e07d-36a6-442e-a18f-cbba7b618b13)
+
+# Tested On
+- Kali Linux -
+- Termux -
+- Ubuntu -
+- Parrot Sec OS -
+  
+
   Here you will find another link which you can use
   - screenshots -
   ![Screenshot ](https://github.com/user-attachments/assets/44a5669d-ee00-4847-96eb-455593a2f007)
