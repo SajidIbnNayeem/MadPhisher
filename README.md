@@ -28,7 +28,7 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
 cd Mad-Phisher
 bash MadPhisher.sh
 ```
-#screenshot
+# Screenshot
 ![Screenshot](https://github.com/user-attachments/assets/38ae19a3-0176-4065-9ab2-ee99d4c4dc81)
 ![Screenshot](https://github.com/user-attachments/assets/0ea438a9-bd3c-4681-b5be-cc02540e4931)
 ![Screenshot](https://github.com/user-attachments/assets/6f1a99f0-309e-4bb2-96b0-893ace2f9c48)
