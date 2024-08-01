@@ -33,4 +33,17 @@ bash MadPhisher.sh
 ![Screenshot](https://github.com/user-attachments/assets/0ea438a9-bd3c-4681-b5be-cc02540e4931)
 ![Screenshot](https://github.com/user-attachments/assets/6f1a99f0-309e-4bb2-96b0-893ace2f9c48)
 
+# Access Local Services anywhere using Cloudflared (link generate for public)
+- You must first install cloudflared -
+  You have to install Cloudflared from their official website
+- Access local services anywhere using cloudflared -
+  Open a new terminal(new window) and type
+  ```
+  cloudflared --url localhost:8080
+  ```
+  Here you will find another link which you can use
+  - screenshots -
+  ![Screenshot ](https://github.com/user-attachments/assets/44a5669d-ee00-4847-96eb-455593a2f007)
+The link will be like this:- ```https://checking-expires-internet-another.trycloudflare.com```
+
 
