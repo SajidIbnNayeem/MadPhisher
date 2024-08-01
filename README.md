@@ -34,9 +34,9 @@ bash MadPhisher.sh
 ![Screenshot](https://github.com/user-attachments/assets/6f1a99f0-309e-4bb2-96b0-893ace2f9c48)
 
 # Access Local Services anywhere using Cloudflared (link generate for public)
-- You must first install cloudflared -
+<li> You must first install cloudflared</li>
   You have to install Cloudflared from their official website
-- Access local services anywhere using cloudflared -
+<li> Access local services anywhere using cloudflared</li>
   Open a new terminal(new window) and type
   ```
   cloudflared --url localhost:8080
