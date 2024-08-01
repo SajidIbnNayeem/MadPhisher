@@ -43,16 +43,14 @@ bash MadPhisher.sh
   ```
 ![screenshot](https://github.com/user-attachments/assets/96f2e07d-36a6-442e-a18f-cbba7b618b13)
 
+- Here you will find another link which you can use - 
+  ![Screenshot ](https://github.com/user-attachments/assets/44a5669d-ee00-4847-96eb-455593a2f007)
+The link will be like this:- ```https://checking-expires-internet-another.trycloudflare.com```
+
 # Tested On
 - Kali Linux -
 - Termux -
 - Ubuntu -
 - Parrot Sec OS -
-  
-
-  Here you will find another link which you can use
-  - screenshots -
-  ![Screenshot ](https://github.com/user-attachments/assets/44a5669d-ee00-4847-96eb-455593a2f007)
-The link will be like this:- ```https://checking-expires-internet-another.trycloudflare.com```
 
 
