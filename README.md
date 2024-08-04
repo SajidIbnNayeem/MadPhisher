@@ -1,7 +1,8 @@
 # Mad-Phisher
-![madphisher](https://github.com/user-attachments/assets/376044bb-80c2-428c-87f4-fc25b2c48289)
+
 
 <p> A beginners friendly, Automated phishing tool with 5 templates</p>
+![WhatsApp Image 2024-08-04 at 9 21 34 AM](https://github.com/user-attachments/assets/53d609d8-57ff-4ef1-9dea-f6ffdca9c788)
 
 # Disclaimer
 <p>Any action and or activities related to <b>MadPhisher</b> is solely your responsibility. The Misuse of toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.</p>
