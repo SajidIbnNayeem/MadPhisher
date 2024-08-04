@@ -1,8 +1,7 @@
 # Mad-Phisher
-
+![madphisher](https://github.com/user-attachments/assets/d249eb45-3bf4-4434-b2b6-dc2c4eb28f73)
 
 <p> A beginners friendly, Automated phishing tool with 5 templates</p>
-
 
 # Disclaimer
 <p>Any action and or activities related to <b>MadPhisher</b> is solely your responsibility. The Misuse of toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.</p>
