@@ -92,7 +92,7 @@ ${PURPLE}            █░▀░█ █▀█ █▄▀ █▀▀ █▀█ █
                      
                         ${RED}Version : ${__version__}
 
- ${GREEN} ➤ Tool Created by SajidibnNayeem (theatomichackers@gmail.com)${BLUE}
+ ${GREEN} ➤ Tool Created by SajidibnNayeem
 	EOF
 }
 
