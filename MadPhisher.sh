@@ -407,7 +407,6 @@ ${RED}[${WHITE}02${RED}]${YELLOW} Instagram
 		${RED}[${WHITE}03${RED}]${YELLOW} Twitter 
 		${RED}[${WHITE}04${RED}]${YELLOW} Snapchat
 		${RED}[${WHITE}05${RED}]${YELLOW} Linkedin
-		${RED}[${WHITE}99${RED}]${YELLOW} About
 		${RED}[${WHITE}00${RED}]${YELLOW} Exit
 	EOF
 	
