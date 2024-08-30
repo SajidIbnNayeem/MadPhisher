@@ -1,4 +1,4 @@
-# Mad-Phisher
+# MadPhisher
 ![madphisher](https://github.com/user-attachments/assets/d249eb45-3bf4-4434-b2b6-dc2c4eb28f73)
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.2-green?style=for-the-badge">
