@@ -43,8 +43,10 @@ cd MadPhisher
 bash MadPhisher.sh
 ```
 # Screenshots
+![MadPhisher](https://github.com/user-attachments/assets/3fbcb8b6-410f-4570-a553-dce3ad66b726)
 
-![screenshots](https://github.com/user-attachments/assets/16a52122-afcf-4f28-939c-ef838381372e)
+
+
 
 
 # Access Local Services anywhere using Cloudflared (link generate for public)
