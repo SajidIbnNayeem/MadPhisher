@@ -1,7 +1,21 @@
 # Mad-Phisher
 ![madphisher](https://github.com/user-attachments/assets/d249eb45-3bf4-4434-b2b6-dc2c4eb28f73)
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.2-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/SajidIbnNayeem/MadPhisher?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/SajidIbnNayeem/MadPhisher?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/SajidIbnNayeem/MadPhisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/SajidIbnNayeem/MadPhisher?color=teal&style=for-the-badge">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-SajidIbnNayeem-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash-darkcyan?style=flat-square">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fzphisher&title=Visitors&edge_flat=false"/></a>
+</p>
 
-
+<p align="center"><b>A beginners friendly, Automated phishing tool with 5+ templates.</b></p>
 
 # Disclaimer
 <p>Any action and or activities related to <b>MadPhisher</b> is solely your responsibility. The Misuse of toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.</p>
