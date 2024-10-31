@@ -489,7 +489,7 @@ ${RED}[${WHITE}04${RED}]${YELLOW} Twitter
 			mask='https://get-a-premium-plan-for-linkedin-free'
 			tunnel_menu;;
         7 | 07)
-			website="microsoft"
+			website="Microsoft"
 			mask='https://unlimited-onedrive-space-for-free'
 			tunnel_menu;;
 		8 | 08)
