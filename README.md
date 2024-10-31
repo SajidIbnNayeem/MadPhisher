@@ -15,7 +15,7 @@
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fzphisher&title=Visitors&edge_flat=false"/></a>
 </p>
 
-<p align="center"><b> A phishing toolkit with 5+ templates ,.</b></p>
+<p align="center"><b> A phishing toolkit with 5+ templates.</b></p>
 
 # Disclaimer
 <p>Any action and or activities related to <b>MadPhisher</b> is solely your responsibility. The Misuse of toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.</p>
