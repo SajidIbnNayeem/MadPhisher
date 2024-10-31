@@ -1,5 +1,6 @@
 # MadPhisher
-![madphisher](https://github.com/user-attachments/assets/d249eb45-3bf4-4434-b2b6-dc2c4eb28f73)
+![Madphisher](https://github.com/user-attachments/assets/626f68cc-4214-43c6-adbe-c74379865b32)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.2-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/SajidIbnNayeem/MadPhisher?style=for-the-badge">
@@ -43,11 +44,9 @@ cd MadPhisher
 bash MadPhisher.sh
 ```
 # Screenshots
-![MadPhisher](https://github.com/user-attachments/assets/3fbcb8b6-410f-4570-a553-dce3ad66b726)
-
-
-
-
+![Madphisher(1)](https://github.com/user-attachments/assets/6a904c16-5f10-4437-abbd-01384cadad59)
+![madphiasher(https://github.com/user-attachments/assets/dfa67585-8223-4d07-8a83-6235df1c2ae4)
+![MAdphisher](https://github.com/user-attachments/assets/06d137a5-c164-4ad9-98bb-099f4b6d78c0)
 
 # Access Local Services anywhere using Cloudflared (link generate for public)
 <li> You must first install cloudflared</li>
