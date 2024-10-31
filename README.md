@@ -45,7 +45,7 @@ bash MadPhisher.sh
 ```
 # Screenshots
 ![Madphisher(1)](https://github.com/user-attachments/assets/6a904c16-5f10-4437-abbd-01384cadad59)
-![madphiasher(https://github.com/user-attachments/assets/dfa67585-8223-4d07-8a83-6235df1c2ae4)
+![madphiasher](https://github.com/user-attachments/assets/dfa67585-8223-4d07-8a83-6235df1c2ae4)
 ![MAdphisher](https://github.com/user-attachments/assets/06d137a5-c164-4ad9-98bb-099f4b6d78c0)
 
 # Access Local Services anywhere using Cloudflared (link generate for public)
