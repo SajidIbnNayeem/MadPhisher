@@ -2,7 +2,7 @@
 ![Madphisher](https://github.com/user-attachments/assets/626f68cc-4214-43c6-adbe-c74379865b32)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.2-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-1.2.4-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/SajidIbnNayeem/MadPhisher?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/SajidIbnNayeem/MadPhisher?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/SajidIbnNayeem/MadPhisher?color=red&style=for-the-badge">
