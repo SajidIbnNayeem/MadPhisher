@@ -462,7 +462,7 @@ ${RED}[${WHITE}04${RED}]${YELLOW} Twitter
 		${RED}[${WHITE}05${RED}]${YELLOW} Snapchat 
 		${RED}[${WHITE}06${RED}]${YELLOW} Linkedin
 		${RED}[${WHITE}07${RED}]${YELLOW} Microsoft
-		${RED}[${WHITE}07${RED}]${YELLOW} Spotify
+		${RED}[${WHITE}08${RED}]${YELLOW} Spotify
 		${RED}[${WHITE}99${RED}]${YELLOW} About
 		${RED}[${WHITE}00${RED}]${YELLOW} Exit
 	EOF
