@@ -86,18 +86,23 @@ The link will be like this:- ```https://checking-expires-internet-another.tryclo
 cd MadPhisher
 bash MadPhisher.sh
 ```
+![madphisher](https://github.com/user-attachments/assets/144af395-fe7e-4646-92ee-d85c4f9bcc75)
+
 
 # Access Local Services anywhere using Cloudflared (link generate for public)
 <li> You must first install Cloudflared-termux</li>
-  You have to install Cloudflared from 
+  You have to install Cloudflared-termux from 
   https://github.com/SajidIbnNayeem/Cloudflared-termux.git
 <li> Access local services anywhere using cloudflared</li>
   
-  <li> Open a new terminal(new window) and type</li>
+  <li> Open a new terminal(new session) and type</li>
   
   ```
   cloudflared --url localhost:8080
   ```
+![madphisher](https://github.com/user-attachments/assets/ed357267-e6b6-437c-b49a-8a8f04c7ed8a)
+
+
 ### Connect with me:
 <div id="badges">
   <a href="https://github.com/SajidIbnNayeem">
