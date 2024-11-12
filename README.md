@@ -27,7 +27,6 @@ it only demonstrates "how phishing works". <b>You shall not misuse the informtio
 # Features 
 - Latest and updated login pages.
 - Beginners friendly
-- Mask URL support
 
  # Installation
  - Just, Clone this repository -
@@ -71,7 +70,34 @@ The link will be like this:- ```https://checking-expires-internet-another.tryclo
 - Ubuntu -
 - Parrot Sec OS -
 
+# Madphisher Termux
+
+ # Installation
+ - Just, Clone this repository -
+
+ ```
+  git clone https://github.com/SajidIbnNayeem/MadPhisher.git
+ ```
+
+- Now go to cloned directory and run 'Madphisher.sh' - 
+
+
+```
+cd MadPhisher
+bash MadPhisher.sh
+```
+
+# Access Local Services anywhere using Cloudflared (link generate for public)
+<li> You must first install Cloudflared-termux</li>
+  You have to install Cloudflared from 
+  https://github.com/SajidIbnNayeem/Cloudflared-termux.git
+<li> Access local services anywhere using cloudflared</li>
   
+  <li> Open a new terminal(new window) and type</li>
+  
+  ```
+  cloudflared --url localhost:8080
+  ```
 ### Connect with me:
 <div id="badges">
   <a href="https://github.com/SajidIbnNayeem">
