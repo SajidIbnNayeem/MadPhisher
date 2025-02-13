@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.2.4-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/SajidIbnNayeem/MadPhisher?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/SajidIbnNayeem/CphishTermux?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/SajidIbnNayeem/MadPhisher?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/SajidIbnNayeem/MadPhisher?color=red&style=for-the-badge">
   <img src="https://img.shields.io/github/forks/SajidIbnNayeem/MadPhisher?color=teal&style=for-the-badge">
