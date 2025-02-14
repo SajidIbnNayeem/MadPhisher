@@ -89,9 +89,9 @@ cd MadPhisher
 bash MadPhisher.sh
 ```
 
-![madphisher Image 2025-02-13 at 2 23 13 PM](https://github.com/user-attachments/assets/d70bacf8-5760-40d7-b010-ee8b3f2470e1)
-![madphisher Image 2025-02-13 at 2 23 13 PM (1)](https://github.com/user-attachments/assets/7e79f776-a069-45c3-a71c-976c6c8c401d)
-![madphisher Image 2025-02-13 at 2 23 13 PM (2)](https://github.com/user-attachments/assets/1990a8fe-a4c6-4666-97d8-56c484ca1f00)
+![Madphisher](https://github.com/user-attachments/assets/853d35e0-b289-4d31-a425-aa108c221300)
+
+
 
 
 
